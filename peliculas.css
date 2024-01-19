@@ -1,0 +1,39 @@
+img{
+    max-width: 100%;
+}
+.titulo-main{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.d-titulo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-titulo{
+    width: 20%;
+    margin: 0 1rem;
+}
+.container-pelis{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);    
+}
+.section-pelis{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+@media (min-width: 678px) {
+
+    .section-pelis{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+  }
